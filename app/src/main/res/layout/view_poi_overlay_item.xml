@@ -1,0 +1,14 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/poi_item_width_height"
+    android:layout_height="@dimen/poi_item_width_height"
+    android:id="@+id/rl_poi_img_bg">
+
+    <ImageView
+        android:id="@+id/iv_poi_img"
+        android:layout_width="@dimen/poi_item_width_height"
+        android:layout_height="@dimen/poi_item_width_height"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
